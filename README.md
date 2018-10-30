@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+#This is Test application named as Treasure Hunt which used grid system for the Game Play.
+#Treasure Hunt Game Application
 
-You can use the [editor on GitHub](https://github.com/Dhani1002/TreasureHuntGame/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#Pre-requisite
+Need to install node.js to provide a environment for running the App.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Steps to create build for development environment and start the project ##
 
-### Markdown
+1. **Install the dependencies** : `npm install`
+2. **Build** : `npm run build`
+3. **Start the app** : `npm start` and open [http://localhost:3000](http://localhost:3000) in browser
+4. **Run test** : `npm run test`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Note : The time complexity of this application is O(n^2):
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Dhani1002/TreasureHuntGame/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Steps to play this game: ##
+1. Provide the detail of number of rows and columns at the homePage.
+2. Click Generate Grid button to generate the grid.
+3. Mark the treasure on the grid plots by clicking on them.
+4. To submit your choices click on the submit button. User cannot submit until there is choice made / marked the plot for the treasure.
+5. User will now be shown the actual grid with possible treasures marked on it.
+6. User can reset the game and can play again by clicking on the reset button.

@@ -1,0 +1,14 @@
+/* Grid.css
+ * Css file to display grid css
+ * @Author: Dhanesh Pant
+ * @Since: 28-April-2018
+ */
+
+#Grid-container {
+    display: table;
+}
+
+.Grid-row {
+	display: flex;
+}
+
