@@ -16,7 +16,7 @@ class App extends Component {
       <div className='App'>
         <header className='App-header'>
           <div className='App-logo-left'><img src={gameIntroImage} alt='logo-left'/></div>
-          <div className='App-title'><h1>Yo Get Ready to Play Treasure Hunt Game ....!</h1></div>
+          <div className='App-title'><h1>Get Ready to Play Treasure Hunt Game ....!</h1></div>
           <div className='App-logo-right'><img src={gamePlayImage} alt='logo-right'/></div>
         </header>
         <HomePage {...this.props}/>
